@@ -1,1 +1,40 @@
 <!-- 課題1-4: プロジェクト課題の検索結果を表示する HTML をここに記述してください．-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>グルメ情報</title>
+</head>
+<body>
+    <h1>グルメ情報</h1>
+    <p>
+    <h2>飲食店の情報を検索できます！</h2>
+    <img src="data:image/png;base64,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"
+         alt="" width="100">
+    <h3>店舗名:バグダッドカフェ Bagdadcafe/モータウン MOTOWN</h3>
+    <ul>
+        <li>住所: 東京都八王子市明神町4-6-12 ホテル・ザ・ビー八王子(旧八王子プラザホテル) 2F</li>
+        <li>アクセス: 京王八王子駅を背にし右手に見えるローソンの隣のビル、ホテルザ・ビーの2階です。</li>
+        <li>予算: 30001~4000円</li>
+        <li>キャッチコピー: 【サプライズ演出有】 結婚パーティー</li>
+        <li>ジャンル: 居酒屋</li>
+        <li>営業時間: 月～日、祝日、祝前日: 17:00～21:00 （料理L.O. 20:00 ドリンクL.O. 20:00）</li>
+        <li>最寄駅: 京王八王子</li>
+        <li>サブジャンル: ダイニングバー・バル</li>
+    </ul>
+    <img src="" alt="" width="200">
+    <h3>店舗名: 隠れ家バル Funny&Bouquet</h3>
+    <ul>
+        <li>名前: 隠れ家バル Funny&Bouquet</li>
+        <li>アクセス: ＪＲ八王子駅北口徒歩1分/京王八王子駅徒歩3分</li>
+        <li>住所: 東京都八王子市東町12-14</li>
+        <li>予算: 2001～3000円</li>
+        <li>キャッチコピー: 2.5時間飲み放題付2000円~ 【★少人数様ソファー★】</li>
+        <li>ジャンル: 居酒屋</li>
+        <li>営業時間: 月～日、祝日、祝前日: 17:00～翌5:00 （料理L.O. 翌3:00 ドリンクL.O. 翌4:00）</li>
+        <li>最寄駅: 八王子</li>
+        <li>サブジャンル: ダイニングバー・バル</li>
+    </ul>
+
+</body>
+</html>
