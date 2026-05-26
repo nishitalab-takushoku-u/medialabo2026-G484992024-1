@@ -19,8 +19,66 @@ function print(data) {
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
-  
+//   let d = document.createElement("div");
+//   d.id = "result";
+//   document.body.appendChild(d);
+
+//   let count = 1; 
+
+//   for (let b of data.results.shop){
+//     let h2 = document.createElement("h2");
+//     h2.textContent = count + "件目の検索結果";
+//     d.appendChild(h2);
+
+//     let img = document.createElement("img")
+//     img.setAttribute("src", logo_image);
+//     d.appendChild(img);
+
+//     let name = document.createElement("p");
+//     name.textContent ="店名: " + b.name;
+//     d.appendChild(name);
+
+//     let access = document.createElement("p");
+//     access.textContent ="住所: " + b.access;
+//     d.appendChild(access);
+
+//     let address = document.createElement("p");
+//     address.textContent ="アクセス: " + b.address;
+//     d.appendChild(address);
+
+//     let budget = document.createElement("p");
+//     budget.textContent ="予算: " + b.budget.name;
+//     d.appendChild(budget);
+
+//     let catchP = document.createElement("p");
+//     catchP.textContent ="キャッチコピー: " + b.catch;
+//     d.appendChild(catchP);
+
+//     let genre = document.createElement("p");
+//     genre.textContent ="ジャンル: " + b.genre.name;
+//     d.appendChild(genre);
+
+//     let open = document.createElement("p");
+//     open.textContent ="営業時間: " + b.open;
+//     d.appendChild(open);
+
+//     let station = document.createElement("p");
+//     station.textContent ="最寄駅: " + b.station_name;
+//     d.appendChild(station);
+
+//     let sub = document.createElement("p");
+//     sub.textContent ="サブジャンル: " + b.sub_genre.name;
+//     d.appendChild(sub);
+
+//     count++;
+//   }
+// }
+// let b = document.querySelector('button#kensaku');
+// b.addEventListener('click', function(){
+//   printDom(data);
+// });
 }
+
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
 

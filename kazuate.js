@@ -23,7 +23,7 @@ function hantei() {
   let yoso = Number(kazu.value);
   spananswer.textContent = yoso;
   // ここまで: テキストボックスに指定された数値を yoso に代入する
-  let spanAnswer = document.querySelector('span#answer');
+  
   // ここから: 正解判定する
   // 　　　　  正解/不正解のときのメッセージを表示する
   let presult = document.querySelector('p#result');

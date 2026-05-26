@@ -3,9 +3,9 @@ function greeting(){
     let i2 = document.querySelector('input[name="right"]');
     let left = Number(i1.value);
     let right = Number(i2.value);
-    let num = left + right;
+    let sum = left + right;
     let span = document.querySelector('span#answer');
-    span.textContent = num;
+    span.textContent = sum;
 }
 
 let b = document.querySelector('button#calc');
