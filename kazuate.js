@@ -13,15 +13,15 @@ let t = false;
 function hantei() {
   // ここから: 予想回数を1増やして，span#kaisu 要素のテキストを更新
   kaisu++;
-  let spankaisu = document.querySelector('span#kaisu');
-  let spananswer = document.querySelector('span#answer');
-  spankaisu.textContent = kaisu;
+  let skaisu = document.querySelector('span#kaisu');
+  let sanswer = document.querySelector('span#answer');
+  skaisu.textContent = kaisu;
   // ここまで: 予想回数を1増やして，span#kaisu 要素のテキストを更新
   
   // ここから: テキストボックスに指定された数値を yoso に代入する
   let kazu = document.querySelector('input#kazu');
   let yoso = Number(kazu.value);
-  spananswer.textContent = yoso;
+  sanswer.textContent = yoso;
   // ここまで: テキストボックスに指定された数値を yoso に代入する
   
   // ここから: 正解判定する
