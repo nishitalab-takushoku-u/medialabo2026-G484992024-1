@@ -55,7 +55,6 @@ button#kensaku {
     transition: all 0.2s ease;
 }
 
-/* ボタンにマウスを乗せたとき */
 button#kensaku:hover {
     background-color: #e6d893;  
     transform: scale(1.05);  
@@ -79,7 +78,6 @@ button#kensaku:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* お店の写真 */
 .shop-card img {
     border-radius: 8px;
     object-fit: cover;
@@ -92,7 +90,7 @@ button#kensaku:hover {
     flex: 1;
 }
 
-/* 店名 */
+
 .shop-card h3 {
     margin-top: 0;
     margin-bottom: 15px;
